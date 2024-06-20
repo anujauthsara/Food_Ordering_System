@@ -1,0 +1,107 @@
+/* styles/driverHome.css */
+
+/* Apply styles to the header */
+h1 {
+    font-size: 48px;
+    color: rgb(13, 0, 255);
+    text-align: center;
+    margin: 40px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+}
+
+/* Apply styles to the container */
+.container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Apply styles to the "See Details" button */
+.container h2 {
+    font-size: 28px;
+    color: #444;
+    margin: 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.container input[type="submit"] {
+    background-color: #FFA400;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #FF8700;
+}
+
+/* Apply styles to the about section */
+#about {
+    background-color: #444;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#about h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 20px 0;
+}
+
+#about p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/* Apply styles to the footer */
+footer {
+    background-color: #FFA400;
+    color: #444;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+
+/* styles/driverHome.css */
+
+/* Apply styles to the "welpara" div */
+#welpara {
+    background-color: rgb(128, 64, 0);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    width: 80%;
+    align-items :center;
+}
+
+/* Apply styles to the "site-description" paragraph */
+#site-description {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Add a shadow to the "welpara" div */
+#welpara {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add a slight animation on hover for "welpara" */
+#welpara:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}

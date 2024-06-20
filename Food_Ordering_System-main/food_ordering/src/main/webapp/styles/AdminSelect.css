@@ -1,0 +1,81 @@
+.table-container1 {
+    display: inline-block;
+    margin-top: 10px;
+    float: left;
+    border: 2px solid #3498db; /* Add a border */
+    background-color: #f2f2f2; /* Set background color */
+    padding: 5px 5px 5px 5px;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.table-container2 {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+    border: 2px solid #e74c3c; /* Add a different border color */
+    background-color: rgb(255, 225, 225); /* Set a different background color */
+	padding: 5px 50px 5px 50px;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+/* Style for table cells */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #333; /* Add cell borders */
+    padding: 10px; /* Add padding inside cells */
+    text-align: center; /* Center text in cells */
+    background-color: #fff; /* Set cell background color */
+    color: #333; /* Set cell text color */
+    background-color: #D3D3D3;
+    width: 100px;
+}
+
+    
+    /* Style for the submit button */
+	.submitbtn {
+	    background-color: rgb(140, 0, 0); /* Green background color */
+	    color: white; /* White text color */
+	    padding: 10px 20px; /* Padding around the button text */
+	    border: none; /* No border */
+	    border-radius: 5px; /* Rounded corners */
+	    cursor: pointer; /* Cursor on hover */
+	    position: absolute;
+	    bottom: 20px; /* Adjust this value to control the distance from the bottom */
+	    left: 50%; /* Center the button horizontally */
+	    transform: translateX(-50%); /* Center the button horizontally */
+	    height: 50px;
+	    width: 150px;
+	    font-size: 20px;
+	}
+	
+.radiobtn {
+    width: 20px;
+    height: 20px;
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    border-radius: 50%; 
+    transition: background-color 0.3s ease-in-out;
+}
+
+.radiobtn:hover {
+    background-color: #e74c3c;
+}
+
+
+/*----------------------------*/
+
+.table-cus {
+    margin-top: 10px;
+    float: left;
+    border: 2px solid #3498db; /* Add a border */
+    background-color: #f2f2f2; /* Set background color */
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+}
